@@ -1,0 +1,10 @@
+build_apk:
+  image: kivy/kivy:latest
+  stage: build
+  script:
+    - pip install buildozer cython
+    - buildozer android debug
+  artifacts:
+    paths:
+      - bin/*.apk
+    expire_in: 1 week

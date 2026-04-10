@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = FPI MQTT Application
+title = MQTT Application
 
 # (str) Package name
-package.name = fpi_mqtt_app
+package.name = mqttapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.example
+package.domain = org.fpi
 
 # (source.dir) Source code where the main.py live
 source.dir = .
 
 # (list) Source includes patterns, let empty to include all the files
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,json
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
